@@ -4,6 +4,7 @@
     padding: 0.81rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-bottom: variables.$simpleBorder;
     line-height: 2px;
     .left{
@@ -28,6 +29,12 @@
             }
         }
 
+    }
+
+    .right{
+        a:first-child{
+            margin-right: 5px;
+        }
     }
 
     

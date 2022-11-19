@@ -2,6 +2,7 @@
   padding: 0.81rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid #e2e8f0;
   line-height: 2px;
 }
@@ -22,4 +23,7 @@
 }
 .nav .left .menu li a:hover {
   color: red;
+}
+.nav .right a:first-child {
+  margin-right: 5px;
 }/*# sourceMappingURL=styles.css.map */
