@@ -19,8 +19,12 @@
                 font-size: 1.1rem;
                 padding: 3px 16px;
                 display: block;
-                
-                
+                transition: 1000ms;
+
+                &:hover{
+                  color: red; 
+                   
+                }
             }
         }
 

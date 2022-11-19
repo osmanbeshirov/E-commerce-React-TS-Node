@@ -18,4 +18,8 @@
   font-size: 1.1rem;
   padding: 3px 16px;
   display: block;
+  transition: 1000ms;
+}
+.nav .left .menu li a:hover {
+  color: red;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import {
   BrowserRouter as Router,
   Route,
@@ -7,7 +8,7 @@ import {
   Routes
 } from "react-router-dom";
 
-// import './App.css';
+import './App.css';
 import Navbar from './Components/Navbar';
 
 const Home = () => {
@@ -19,18 +20,23 @@ const Home = () => {
 function App() {
   return (
     <>
+    
+        <Router>
+          <div className="App">
+            <div>
+              <Navbar />
 
-      <Router>
-        <div className="App">
-          <div>
-            <Navbar />
-            <Routes>
-              <Route path="/" element={<Home />} />
+              <div className="content">
+                <Routes>
+                  <Route path="/" element={<Home />} />
 
-            </Routes>
+                </Routes>
+              </div>
+
+            </div>
           </div>
-        </div>
-      </Router>
+        </Router>
+      
     </>
 
   );
