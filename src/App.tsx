@@ -10,6 +10,8 @@ import {
 
 import './App.css';
 import Navbar from './Components/Navbar';
+import Signin from './Pages/Auth/Signin';
+import Signup from './Pages/Auth/Signup';
 
 const Home = () => {
   return (
@@ -20,23 +22,24 @@ const Home = () => {
 function App() {
   return (
     <>
-    
-        <Router>
-          <div className="App">
-            <div>
-              <Navbar />
 
-              <div className="content">
-                <Routes>
-                  <Route path="/" element={<Home />} />
+      <Router>
+        <div className="App">
+          <div>
+            <Navbar />
 
-                </Routes>
-              </div>
-
+            <div className="content">
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path='/signin' element={<Signin />} />
+                <Route path='/signup' element={<Signup />} />
+              </Routes>
             </div>
+
           </div>
-        </Router>
-      
+        </div>
+      </Router>
+
     </>
 
   );
