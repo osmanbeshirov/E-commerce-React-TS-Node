@@ -1,0 +1,30 @@
+@use '../../StyledConstants/main' as variables;
+
+.nav {
+    padding: 0.81rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: variables.$simpleBorder;
+    line-height: 2px;
+    .left{
+        display: flex;
+        
+        .menu{
+            display: flex;
+            margin-left: 2.5rem;
+
+            li a {
+                color: #4a5568;
+                text-decoration: none;
+                font-size: 1.1rem;
+                padding: 3px 16px;
+                display: block;
+                
+                
+            }
+        }
+
+    }
+
+    
+}
