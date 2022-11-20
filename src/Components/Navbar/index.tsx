@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { Button, ButtonGroup } from '@chakra-ui/react'
+import { Button } from '@chakra-ui/react'
 
 import '../Navbar/styles.css'
 
@@ -26,7 +26,6 @@ const Navbar = () => {
                     <Link to={'/signup'}>
                         <Button colorScheme='pink'>Register</Button>
                     </Link>
-
 
                 </div>
 
